@@ -1,0 +1,10 @@
+<div *ngFor="let key of keys">
+    <div>{{ key }}:</div>
+    <div>{{ item[key] }}</div>
+</div>
+<ng-container *ngIf="item.metrics">
+    <div *ngFor="let key of metricsKeys">
+        <div>{{ key }}:</div>
+        <div>{{ item.metrics[key] }}</div>
+    </div>
+</ng-container>

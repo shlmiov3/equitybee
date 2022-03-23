@@ -1,0 +1,12 @@
+<div class="search-section">
+    <div>enter your URL</div>
+    <input [formControl]="inputUrl"/>
+    <button (click)="onGetInfoClick()">get Info</button>
+</div>
+
+<div *ngFor="let data of urlsData$ | async">
+    <div [routerLink]="['/urlDetails']" [queryParams]="{url_name: data.name}">
+        <app-url-data [urlData]="data"></app-url-data>
+    </div>
+</div>
+
