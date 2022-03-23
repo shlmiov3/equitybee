@@ -1,0 +1,47 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/equity-bee-task/dist
+/equity-bee-task/tmp
+/equity-bee-task/out-tsc
+/equity-bee-task/bazel-out
+
+# Node
+/equity-bee-task/node_modules
+/equity-bee-task/npm-debug.log
+/equity-bee-task/yarn-error.log
+
+# IDEs and editors
+/equity-bee-task/.idea/
+/equity-bee-task/.project
+/equity-bee-task/.classpath
+/equity-bee-task/.c9/
+/equity-bee-task/*.launch
+/equity-bee-task/.settings/
+/equity-bee-task/*.sublime-workspace
+
+# Visual Studio Code
+/equity-bee-task/.vscode/*
+/equity-bee-task/!.vscode/settings.json
+/equity-bee-task/!.vscode/tasks.json
+/equity-bee-task/!.vscode/launch.json
+/equity-bee-task/!.vscode/extensions.json
+/equity-bee-task/.history/*
+
+# Miscellaneous
+/equity-bee-task/.angular/cache
+/equity-bee-task/equity-bee-task/.sass-cache/
+/equity-bee-task/connect.lock
+/equity-bee-task/coverage
+/equity-bee-task/libpeerconnection.log
+/equity-bee-task/equity-bee-task/testem.log
+/equity-bee-task/typings
+
+# System files
+/equity-bee-task/.DS_Store
+/equity-bee-task/Thumbs.db
+
+# Firebase
+/equity-bee-task/.firebase
+/equity-bee-task/*-debug.log
+/equity-bee-task/.runtimeconfig.json
